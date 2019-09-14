@@ -1,6 +1,5 @@
 # data-handling modules
 import json
-# import pandas as pd
 
 # environment variables modules
 import os
@@ -10,8 +9,6 @@ from dotenv import load_dotenv
 APP_ROOT = os.path.join(os.path.dirname('__file__'), '.') # refers to application_top
 dotenv_path = os.path.join(APP_ROOT, '.env')
 load_dotenv(dotenv_path)
-
-# import requests
 
 # scrapy exceptions
 from scrapy.exceptions import DropItem
