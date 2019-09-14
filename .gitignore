@@ -1,0 +1,13 @@
+venv
+__pycache__/
+*.pyc
+*.ipynb
+staticfiles
+db.sqlite3
+.env
+*.sh
+*.json
+Procfile
+
+
+/jupyter

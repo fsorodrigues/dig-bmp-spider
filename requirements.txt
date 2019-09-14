@@ -1,0 +1,7 @@
+Scrapy==1.5.1
+pandas==0.23.4
+requests==2.19.1
+httplib2==0.12.0
+google_api_python_client==1.7.4
+python-dotenv==0.9.1
+oauth2client==4.1.3
