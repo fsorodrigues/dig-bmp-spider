@@ -1,5 +1,5 @@
 # Contents
-## `./Spider`
+## `./spider`
 This is the directory where the actual spider/scraper code is.
 
 ## `./`
@@ -28,7 +28,8 @@ PATH=$PATH:/absolute/path/to/virtual/env/bin/
 export PATH
 scrapy crawl spider
 ```
-- `Procfile` (optional)
+Remember you're probably going to have to make the scripts executable with `chmod +x path/to/script`.
+- `Procfile` (optional)  
 Used when deploying to some cloud services
 
 ## `./StringParser`
